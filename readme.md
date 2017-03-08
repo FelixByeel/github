@@ -4,16 +4,21 @@
 * stage：暂存区  
 * repository：仓库  
 * remote：远程仓库  
+
 ## 配置  
+
 \# 配置全局用户信息，用来标识commit的用户  
+
 >$ git config --global user.name "your user name"  
 
 >$ git config --global user.email "youremail@XXX.XXX"  
 
 \# 获取Git配置信息  
+
 >$ git config --list  
 
 ## 创建版本库  
+
 \# 在当前目录初始化Git库  
 
 >$ git init  
